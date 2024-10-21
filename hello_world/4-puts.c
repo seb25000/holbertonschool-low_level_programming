@@ -1,6 +1,7 @@
-# include <stdio.h>
-int main(void)
+#include  <stdio.h>
+
+int  main ( void )
 {
-	 puts ("\"Programming is like building a multilingual puzzle");
-	   return (0);
+		puts ( "La programmation, c'est comme construire un puzzle multilingue\n" );
+			retour ( 0 );
 }
