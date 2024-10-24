@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - Entry point
- * Return: Allways 0 (Success)
- * /
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 char alphabet;
