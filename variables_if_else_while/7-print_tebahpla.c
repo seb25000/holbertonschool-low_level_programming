@@ -1,15 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n;
-for (n = 0; n <= 9; n++)
-{
-putchar('0' + n);
-}
+char alphabet;
+for (alphabet = 'z'; alphabet <= 'a'; alphabet++)
+putchar(alphabet);
 putchar('\n');
 return (0);
 }
