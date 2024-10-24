@@ -13,7 +13,7 @@ putchar(alphabet);
 }
 for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 {
-putchar(alphabet);
+putchar(alphabet\n);
 }
 return (0);
 }
