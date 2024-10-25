@@ -5,6 +5,8 @@
  */
 int main(void)
 {
-printf("_putchar\n");
+char _putchar = '_';
+for (_putchar = '_'; _putchar <= 'r'; _putchar++)
+putchar (_putchar);
 return (0);
 }
