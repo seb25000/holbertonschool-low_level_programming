@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * _isupper - check the uppercase
  *
  * Return: Always 0.
  */
