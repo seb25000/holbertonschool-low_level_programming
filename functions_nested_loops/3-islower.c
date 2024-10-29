@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _islower - Entry point
+ * @c: is a variable and a increment counter
  * Return: Always 0 (Success)
  */
 int _islower(int c)
