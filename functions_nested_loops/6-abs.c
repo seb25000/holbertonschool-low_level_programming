@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
+ * _abs - Entry point
+ * @r: is a variable counter
  * Return: Always 0 (Success)
  */
 int _abs(int r)
