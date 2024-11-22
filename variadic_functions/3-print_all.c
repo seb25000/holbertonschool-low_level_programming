@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_all - print anything passed if char, int, float, or string.
+ * print_all - print anything passed if char, int, float, or string
  * _printchar - print char type element from va_list
  * @list: va_list passed to function
  * @format: string of formats to use and print
@@ -47,15 +47,4 @@ printf(", ");
 }
 va_end(args);
 printf("\n");
-}
-/**
- * main - This defines the entry point of a C program. The function returns
- * an integer (int) and doesn't take any parameters (void).
- * void: don't retour value
- */
-int main(void)
-{
-print_all("ceis", 'H', 123, 3.14, "Hello");
-print_all("cfsi", 'A', 456, 2.71, NULL);
-return (0);
 }
