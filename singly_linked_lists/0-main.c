@@ -11,7 +11,7 @@ int main(void)
 {
 list_t *head;
 list_t *new;
-list_t hello = {5, "World", 0, NULL};
+list_t hello = {5, "World", 5, NULL};
 printf("[%d] %s\n", hello.len, hello.str);
 return (0);
 head = &hello;
